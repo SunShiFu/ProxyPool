@@ -39,7 +39,7 @@ def get_proxy():
 
   > 爬虫模块
 
-  * 抓取各大网站的免费代理IP，由于是免费的，可用率不是很高，所以要进行异步测试
+  * 抓取各大网站的免费代理IP（国外IP可用率太低，这里只抓取国内的），由于是免费的，可用率不是很高，所以要进行异步测试
 
 
 * schedule.py
@@ -70,3 +70,6 @@ def get_proxy():
 
   > 设置
   * Redis数据库的配置，API的配置，测试参数的调整等
+## 项目参考
+
+[https://github.com/Python3WebSpider/ProxyPool](https://github.com/Python3WebSpider/ProxyPool)
