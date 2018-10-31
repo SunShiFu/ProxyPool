@@ -4,6 +4,7 @@
 ## 运行环境
 * Python 3.6
 * Redis
+* flask
 
 ## 运行代理池
 `$ python3 run.py `
